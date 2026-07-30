@@ -36,3 +36,46 @@ The project consists of the following tables:
 - Orders
 - OrderDetails
 - Membership
+  ---
+
+## 💡 SQL Concepts Demonstrated
+
+Throughout this project, the following SQL concepts were applied:
+
+- SELECT, WHERE, ORDER BY
+- Aggregate Functions (COUNT, SUM, AVG, MAX, MIN)
+- GROUP BY and HAVING
+- INNER JOIN and LEFT JOIN
+- COUNT(DISTINCT)
+- Subqueries
+- Correlated Subqueries
+- Derived Tables
+- Business-Oriented SQL Reporting
+- Revenue and Customer Analytics
+  ---
+
+## 📊 Business Questions Solved
+
+This project answers real-world business questions such as:
+
+- Which products generate the highest revenue?
+- Which brands perform above average?
+- Which customers spend more than the average customer?
+- Which payment methods generate the highest revenue?
+- Which customers purchased from every product category?
+- Which products have never been ordered?
+- Which category generates the highest sales?
+- Which customers have placed the most orders?
+- Monthly revenue analysis.
+- Revenue analysis by brand and category.
+
+---
+## ✨ Project Features
+
+- Designed a normalized relational database.
+- Built realistic retail sales datasets.
+- Performed customer, product, and sales analysis.
+- Generated business insights using advanced SQL queries.
+- Organized SQL scripts for easy understanding and maintenance.
+
+---
