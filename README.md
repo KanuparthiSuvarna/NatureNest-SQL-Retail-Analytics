@@ -131,7 +131,7 @@ The repository includes:
 MCA Student | Aspiring Data Analyst
 
 - GitHub: https://github.com/KanuparthiSuvarna
-- LinkedIn: *(Add your LinkedIn profile URL here)*
+- LinkedIn: www.linkedin.com/in/suvarna-kanuparthi-b2783936a
 
 ---
 
