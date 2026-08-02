@@ -1,18 +1,24 @@
-## 📌 Project Overview
+# 🌿 NatureNest – SQL Retail Sales Analytics
 
-NatureNest is a MySQL-based retail sales analytics project that simulates the operations of a natural products retail business. The database was designed to manage customers, products, categories, memberships, orders, and order details while answering real-world business questions using SQL.
-
-This project demonstrates practical SQL skills through business-driven analysis rather than simple practice queries.
+A portfolio-ready SQL project that simulates a retail business database and solves real-world business problems using MySQL.
 
 ---
 
-## 🎯 Objectives
+## 📌 Project Overview
 
-- Design a relational database for a retail business.
-- Practice SQL using realistic business scenarios.
-- Analyze customer purchasing behavior.
-- Measure product and category performance.
-- Generate business insights using SQL queries.
+NatureNest is a MySQL-based retail sales analytics project developed to simulate the operations of a natural products retail business.
+
+The project demonstrates practical SQL skills through database design, data management, and business analytics using real-world scenarios.
+
+---
+
+## 🎯 Project Objectives
+
+- Design a normalized retail database
+- Implement relationships using Primary and Foreign Keys
+- Perform business analytics using SQL
+- Solve real-world business problems
+- Build a portfolio-ready SQL project
 
 ---
 
@@ -23,59 +29,116 @@ This project demonstrates practical SQL skills through business-driven analysis 
 - SQL
 - Git
 - GitHub
+- dbdiagram.io
 
 ---
 
-## 🗄 Database Structure
+## 🗄 Database Schema
 
-The project consists of the following tables:
+The project consists of six relational tables:
 
-- Customers
-- Products
-- Categories
-- Orders
-- OrderDetails
-- Membership
-  ---
+| Table | Description |
+|--------|-------------|
+| Customers | Customer information |
+| Membership | Membership plans |
+| Categories | Product categories |
+| Products | Product information |
+| Orders | Customer orders |
+| OrderDetails | Order line items |
 
-## 💡 SQL Concepts Demonstrated
+---
 
-Throughout this project, the following SQL concepts were applied:
+## 📊 Business Analytics
 
-- SELECT, WHERE, ORDER BY
-- Aggregate Functions (COUNT, SUM, AVG, MAX, MIN)
-- GROUP BY and HAVING
-- INNER JOIN and LEFT JOIN
-- COUNT(DISTINCT)
+This project answers practical business questions including:
+
+- Most popular payment method
+- Top spending customers
+- Monthly revenue analysis
+- Brand performance
+- Products never sold
+- Highest revenue product per category
+- Customers purchasing across multiple categories
+- Above-average revenue brands
+- Average order value
+- Customer spending analysis
+
+A total of **27 business problems** were solved using SQL.
+
+---
+
+## 💡 SQL Concepts Used
+
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+- HAVING
+- INNER JOIN
+- LEFT JOIN
+- Aggregate Functions
 - Subqueries
 - Correlated Subqueries
 - Derived Tables
-- Business-Oriented SQL Reporting
-- Revenue and Customer Analytics
-  ---
-
-## 📊 Business Questions Solved
-
-This project answers real-world business questions such as:
-
-- Which products generate the highest revenue?
-- Which brands perform above average?
-- Which customers spend more than the average customer?
-- Which payment methods generate the highest revenue?
-- Which customers purchased from every product category?
-- Which products have never been ordered?
-- Which category generates the highest sales?
-- Which customers have placed the most orders?
-- Monthly revenue analysis.
-- Revenue analysis by brand and category.
 
 ---
-## ✨ Project Features
 
-- Designed a normalized relational database.
-- Built realistic retail sales datasets.
-- Performed customer, product, and sales analysis.
-- Generated business insights using advanced SQL queries.
-- Organized SQL scripts for easy understanding and maintenance.
+## 📂 Repository Structure
+
+```text
+NatureNest-SQL-Retail-Analytics
+│
+├── SQL
+│   ├── 01_Create_Database.sql
+│   ├── 02_Create_Tables.sql
+│   ├── 03_Insert_Data.sql
+│   └── 04_Business_Analytics_Queries.sql
+│
+├── Database
+├── Documents
+├── Screenshots
+├── ER_Diagram
+└── README.md
+```
 
 ---
+
+## 📸 Project Screenshots
+
+The repository includes:
+
+- Database tables
+- SQL query outputs
+- Business analytics reports
+- Entity Relationship Diagram
+
+---
+
+## 🚀 Key Features
+
+- Relational database design
+- Retail sales analytics
+- Advanced SQL queries
+- Business intelligence reporting
+- Portfolio-ready documentation
+
+---
+
+## 👩‍💻 Author
+
+**Suvarna Kanuparthi**
+
+MCA Student | Aspiring Data Analyst
+
+- GitHub: https://github.com/KanuparthiSuvarna
+- LinkedIn: *(Add your LinkedIn profile URL here)*
+
+---
+
+## ⭐ Highlights
+
+- Designed a complete retail database from scratch
+- Created relationships using foreign keys
+- Solved 27 real-world SQL business problems
+- Applied joins, aggregate functions, and advanced subqueries
+- Built a professional SQL portfolio project
