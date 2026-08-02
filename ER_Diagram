@@ -1,1 +1,14 @@
 
+
+This Entity Relationship (ER) Diagram illustrates the relational database design of the NatureNest SQL Retail Analytics project.
+
+The database consists of six interconnected tables:
+
+- Membership
+- Customers
+- Categories
+- Products
+- Orders
+- OrderDetails
+
+The diagram highlights the primary keys, foreign keys, and relationships used to maintain referential integrity within the database.
